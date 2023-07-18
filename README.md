@@ -1,2 +1,2 @@
 # cms.github.io
-CMS
+cms.github.io/index.php
