@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+}
+
+.container{
+	max-width:1000px;
+	margin:0 auto;
+}
+
+header{
+	background-color: #faf0ca;
+	padding: 20px;
+}
+header .container{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	}
+header a{
+	color:#787878;
+	text-decoration: none;
+}
+header nav a{
+	margin:0 10px;
+}
+header nav a:hover{
+	color:#000000;
+}
+header .logo{
+	font-weight: 700;
+}
+header .icon{
+	display: none;
+}
+
+main {}
+
+#gallery{
+	padding: 20px 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items:center;
+}
+
+
+#news{
+	height:auto;
+}
+
+#news .container{
+	background-color: #d7d7d7;
+	display: block;
+	padding: 20px;
+}
+
+#news .container .monthly{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#news .container .texts{
+	text-align: center;	
+}
+
+#news .container .items{
+	text-align: center;
+	justify-content:flex-start;
+	padding-left: 50px;
+}
+
+#news .container .items img{
+
+	width: 450px;
+	height: 310px;
+	padding: 20px;
+}
+
+#news .container .items h2{
+	font-size: 2.5em;
+	color: #447db2;
+}
+
+#news .container .address{
+	height: 100px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#about .container{
+	padding: 20px 20px;
+	text-align: center;
+}
+
+#location .container{
+	padding: 20px 20px;
+	text-align: center;
+}
+h1{
+	font-size: 2em;
+}
+footer{
+	background-color: #333;
+	color:#CCC;
+	text-align: center;
+	padding:20px 0;
+}
+
+
+@media (max-width:540px){
+	body{
+		font-size: 100%;
+	}
+	
+	.container{
+		width: 100%;
+	}
+	header{
+		text-align: center;
+	}
+	header .container{
+		flex-wrap: wrap;
+	}
+	header .media{
+		display: none;
+	}
+	header .logo{
+		font-size: 12px;
+	}
+	header .icon{
+		display: block;
+		height: 32px;
+	}
+	header .icon .close{
+		display: none;
+	}
+	header nav{
+		margin-top: 15px;
+		width: 100%;
+		display: none;
+	}
+	header nav a{
+		display: block;
+		border-top:solid 1px #FFF;
+		padding:15px 0;
+		margin: 0;
+	}
+	#banner{
+		height: 550px;
+	}
+	#new .container{
+		padding: 0;
+
+	}
+	#news .texts{
+		font-size: 0.8em;
+	}
+	h2{
+		font-size: 0.1em;
+	}
+	#new .container .items{
+		width: 100%;
+		padding: 50px 20px;
+		border-bottom: dashed 1px #DDD;
+		text-align: center;
+		justify-content:flex-start;
+	}
+	h1{
+		font-size: 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
